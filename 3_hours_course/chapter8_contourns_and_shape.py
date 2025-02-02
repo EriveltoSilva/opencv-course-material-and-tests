@@ -35,7 +35,7 @@ def getContours(img):
 
 
 
-img = cv2.imread('resources/shapes.png')
+img = cv2.imread('../resources/images/shapes.png')
 imgContour = img.copy()
 
 imgGray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)

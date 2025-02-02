@@ -40,7 +40,7 @@ def stackImages(scale,imgArray):
 
 
 
-path = "resources/lambo.png"
+path = "../resources/images/lambo.png"
 
 cv2.namedWindow("Trackbars")
 cv2.resizeWindow("Trackbars", 640, 240)

@@ -1,8 +1,8 @@
 """ Face detection"""
 import cv2
 
-face_cascade = cv2.CascadeClassifier("resources/haarcascade_frontalface_default.xml")
-img = cv2.imread("resources/Erivelto_Perfil-removebg.png")
+face_cascade = cv2.CascadeClassifier("../resources/haarcascades/haarcascade_frontalface_default.xml")
+img = cv2.imread("../resources/images/Erivelto_Perfil-removebg.png")
 #img = cv2.resize(img, (700,600))
 imgGray   = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 

@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 
 
-img = cv2.imread("resources/lambo.png")
+img = cv2.imread("../resources/images/lambo.png")
 
 # Resize
 imgResized = cv2.resize(img, (300, 200))
